@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    margin: 50px auto;
+    width: 30%;
+}
+.tab_list{
+    padding-left: 4px;
+    height: 30px;
+    width: 350px;
+
+    background-color: #eee;
+}
+.tab_list li{
+    width: 33%;
+    height: 100%;
+    float: left;
+    border: 3px solid #eee;
+    list-style: none;
+    display: inline-table;
+    background-color: gray;
+    box-sizing: border-box;
+}
+.tab_list > .tab1{
+    background-color: blue;
+}
+div p{
+    border: 1px solid black;
+    padding: 5px;
+}
+.wrapper>.tab1 {
+    display: block;
+}
+.wrapper>.tab2 {
+    display: none;
+}
+.wrapper>.tab3 {
+    display: none;
+}
